@@ -17,10 +17,12 @@ This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Do
 * `java6`: Oracle Java 6 JDK
 * `java7`: Oracle Java 7 JDK
 * `java8`: Oracle Java 8 JDK
+* `java9`: Oracle Java 9 JDK
+
 
 For example, you can run a `Oracle Java 7` container with the following command:
 
-    docker run -it --rm cogniteev/oracle-java:java8 java -version
+    docker run -it --rm cogniteev/oracle-java:java7 java -version
 
 
 ### Installation
