@@ -1,1 +1,1 @@
-openjdk-7-jre/Dockerfile
+oracle-java8/Dockerfile
