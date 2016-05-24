@@ -1,26 +1,17 @@
-## Oracle Java image
+# Supported tags and respective `Dockerfile` links
 
-This repository contains **Dockerfile** of [Oracle Java](https://www.java.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/cogniteev/oracle-java/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+* `java6`, 6u45 JDK [(Dockerfile)](https://github.com/cogniteev/docker-oracle-java/blob/master/oracle-java6/Dockerfile)
+* `java7`, 7u80 JDK [(Dockerfile)](https://github.com/cogniteev/docker-oracle-java/blob/master/oracle-java7/Dockerfile)
+* `java8`, `latest`, 8u92 [(Dockerfile)](https://github.com/cogniteev/docker-oracle-java/blob/master/oracle-java8/Dockerfile)
+* `java9`, 9b116 JDK [(Dockerfile)](https://github.com/cogniteev/docker-oracle-java/blob/master/oracle-java9/Dockerfile)
 
-### Base Docker Image
+[![ImageLayers.io](https://badge.imagelayers.io/cogniteev%2Foracle-java:latest.svg)](https://imagelayers.io/?images=cogniteev%2Foracle-java:latest,cogniteev%2Foracle-java:java6,cogniteev%2Foracle-java:java7,cogniteev%2Foracle-java:java8,cogniteev%2Foracle-java:java9)
+
+# Base Docker Image
 
 * [ubuntu:16.04](https://registry.hub.docker.com/_/ubuntu/)
 
-### Docker Tags
-
-`cogniteev/oracle-java` provides multiple tagged images:
-
-* `latest` (default): Oracle Java 8 JDK (alias to `java8`)
-* `java6`: Oracle Java 6u45 JDK
-* `java7`: Oracle Java 7u80 JDK
-* `java8`: Oracle Java 8u92 JDK
-* `java9`: Oracle Java 9b116 JDK
-
-For example, you can run a `Oracle Java 7` container with the following command:
-
-    docker run -it --rm cogniteev/oracle-java:java7 java -version
-
-### Installation
+# Installation
 
 1. Install [Docker](https://www.docker.com/).
 
@@ -37,3 +28,7 @@ For example, you can run a `Oracle Java 7` container with the following command:
 #### Run `javac`
 
     docker run -it --rm cogniteev/oracle-java javac
+
+# LICENSE
+
+MIT
