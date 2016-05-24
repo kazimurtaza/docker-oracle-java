@@ -1,29 +1,24 @@
-## Java Dockerfile
+## Oracle Java image
 
-
-This repository contains **Dockerfile** of [Java](https://www.java.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/cogniteev/oracle-java/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
-
+This repository contains **Dockerfile** of [Oracle Java](https://www.java.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/cogniteev/oracle-java/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 ### Base Docker Image
 
-* [ubuntu](https://registry.hub.docker.com/_/ubuntu/)
-
+* [ubuntu:16.04](https://registry.hub.docker.com/_/ubuntu/)
 
 ### Docker Tags
 
 `cogniteev/oracle-java` provides multiple tagged images:
 
 * `latest` (default): Oracle Java 8 JDK (alias to `java8`)
-* `java6`: Oracle Java 6 JDK
-* `java7`: Oracle Java 7 JDK
-* `java8`: Oracle Java 8 JDK
-* `java9`: Oracle Java 9 JDK
-
+* `java6`: Oracle Java 6u45 JDK
+* `java7`: Oracle Java 7u80 JDK
+* `java8`: Oracle Java 8u92 JDK
+* `java9`: Oracle Java 9b116 JDK
 
 For example, you can run a `Oracle Java 7` container with the following command:
 
     docker run -it --rm cogniteev/oracle-java:java7 java -version
-
 
 ### Installation
 
