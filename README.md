@@ -15,20 +15,16 @@
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/cogniteev/oracle-java/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull cogniteev/oracle-java`
+2. Download [automated build](https://registry.hub.docker.com/u/cogniteev/oracle-java/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull kazimurtaza/oracle-java`
 
 ### Usage
 
-    docker run -it --rm cogniteev/oracle-java
+    docker run -it --rm kazimurtaza/oracle-java
 
 #### Run `java`
 
-    docker run -it --rm cogniteev/oracle-java java
+    docker run -it --rm kazimurtaza/oracle-java java
 
 #### Run `javac`
 
-    docker run -it --rm cogniteev/oracle-java javac
-
-# LICENSE
-
-MIT
+    docker run -it --rm kazimurtaza/oracle-java javac

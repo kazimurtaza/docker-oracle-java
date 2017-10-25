@@ -1,8 +1,8 @@
 #
 # Oracle Java 8 Dockerfile
 #
-# https://github.com/cogniteev/docker-oracle-java
-# https://github.com/cogniteev/docker-oracle-java/tree/master/oracle-java8
+# https://github.com/kazimurtaza/docker-oracle-java
+# https://github.com/kazimurtaza/docker-oracle-java/tree/master/oracle-java8
 #
 
 # Pull base image.
@@ -18,6 +18,7 @@ RUN \
   apt-get install -y oracle-java8-installer && \
   rm -rf /var/lib/apt/lists/* && \
   rm -rf /var/cache/oracle-jdk8-installer
+
 
 
 # Define working directory.
